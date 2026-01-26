@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} coffee-shop\.paulchristianlabor\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://coffee-shop.paulchristianlabor.com/$1 [R,L]
