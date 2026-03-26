@@ -22,13 +22,10 @@ export default function CoffeeLandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            className="font-serif font-bold text-lg text-foreground hover:text-primary transition-colors cursor-pointer"
             aria-label="Coffee Shop Home"
           >
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-lg">
-              ☕
-            </div>
-            <span className="hidden sm:block font-serif font-bold text-foreground">Coffee Shop</span>
+            Coffee Shop
           </button>
 
           {/* Desktop Menu */}
@@ -300,7 +297,7 @@ export default function CoffeeLandingPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">Visit Us</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Experience our café firsthand
+              Experience our café first hand
             </p>
           </div>
 
