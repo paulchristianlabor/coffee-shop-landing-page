@@ -88,7 +88,7 @@ export default function CoffeeLandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center relative z-10">
           <div className="space-y-6 text-center max-w-2xl">
             <div className="inline-block px-4 py-2 bg-secondary/80 rounded-full text-sm font-medium text-white">
-              ✨ Premium Coffee Experience
+              Premium Coffee Experience
             </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold leading-tight text-balance text-white">
               Freshly Brewed Coffee
