@@ -391,6 +391,7 @@ export default function CoffeeLandingPage() {
           </div>
           <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-90">
             <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+            <p className="mt-2 opacity-70">Design and Built by Paul Christian Labor</p>
           </div>
         </div>
       </footer>
